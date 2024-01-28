@@ -1,4 +1,8 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# About the project
+This is a new project of a calculator, made using ReactNative.
+
+# How to use
+>**Note**: Just choose a number, operator, number and finally the equal and will display the result. `1 + 1 = 2`
 
 # Getting Started
 
