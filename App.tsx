@@ -52,15 +52,14 @@ export default class App extends Component {
 
   setOperation = (operation:string) => {
     if(this.state.current === 0){
-      this.setState({ operation, current: 1, clearDisplay: true})
+      this.setState({ operation: operation, current: 1, clearDisplay: true})
     }else{
       const equals = operation === '='
       const values = [...this.state.values]
       try{
-        values[0] = eval(`${values[0]} ${operation} ${values[1]}`)
+        values[0] = eval(`${values[0]} ${this.state.operation} ${values[1]}`)
       }catch(e){
         values[0] = this.state.values[0]
-        console.log(values[0])
       }
 
       values[1] = 0
