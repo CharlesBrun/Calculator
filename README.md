@@ -1,5 +1,5 @@
 # About the project
-This is a new project of a calculator, made using ReactNative.
+This is a new calculator project developed using ReactNative.
 
 # How to use
 >**Note**: Just choose a number, operator, number and finally the equal and will display the result. `1 + 1 = 2`
